@@ -388,3 +388,10 @@ table a, #comments a{background-color:inherit;}
 	.latest ul li figure img{width:100%;}
 	.latest ul li figure figcaption{padding:15px 30px;}
 }
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
