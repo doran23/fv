@@ -103,3 +103,10 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 .inspace-80{padding:80px;}
 
 .paditout{padding-top:50px;}
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
