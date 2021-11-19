@@ -13,6 +13,7 @@ body {
 div.top { 
     background-color: #f5ece5;
     display: flex;
+    flex-wrap: wrap;
 }
 .top-left { 
     flex: 1;
