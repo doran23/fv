@@ -18,6 +18,7 @@ div.top {
 .top-left { 
     flex: 1;
     margin-left: 20px;
+    text-align: left;
 }
 .top-right { 
     margin-top: 5px;
@@ -77,4 +78,19 @@ hr {
 .copyright { 
     margin-top: 20px;
     text-align: center;
+}
+@media (max-width: 978px) {
+    .fa {
+      padding:1;
+      margin:1;
+    }
+
+    body {
+      width: 100%;
+    }
+
+    .top-left, .top-right, .div.left, .div.right {
+      margin-left: 1;
+      margin-right: 1;
+    }
 }
