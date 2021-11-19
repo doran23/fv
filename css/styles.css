@@ -26,7 +26,7 @@ div.top {
     text-align: center;
 }
 
-img { 
+.title_image_image { 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -58,12 +58,22 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.footer { 
+    display: flex;
+}
+.zillow_logo {
+    width: 56px;
+    height: 56px;
+    flex: 1;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 20px;
     text-align: center;
     text-decoration: none;
+    flex: 1;
   }
   
   /* Add a hover effect if you want */
@@ -83,6 +93,7 @@ hr {
     .fa {
       padding:1;
       margin:1;
+      margin-left: 1;
     }
 
     body {
