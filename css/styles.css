@@ -21,7 +21,7 @@ div.top {
     text-align: left;
 }
 .top-right { 
-    margin-top: 5px;
+    margin-top: 10px;
     margin-right: 20px;
     text-align: center;
 }
@@ -37,7 +37,9 @@ div.title_image {
     background-color: #45523e;
     border: 5px solid #45523e;
 }
-
+.email { 
+    text-decoration: none
+}
 div.content { 
     display: flex;
     flex-wrap: wrap;
