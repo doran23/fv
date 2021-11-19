@@ -66,6 +66,9 @@ hr {
     height: 56px;
     flex: 1;
 }
+  .zillow_logo:hover {
+    opacity: 0.7;
+  }  
 
 .fa {
     padding: 20px;
