@@ -38,6 +38,7 @@ div.title_image {
 
 div.content { 
     display: flex;
+    flex-wrap: wrap;
 }
 div.left { 
     flex: 1;
@@ -45,6 +46,7 @@ div.left {
 }
 div.center {
     flex: 1;
+    flex-wrap: wrap;
 }
 div.right { 
     flex: 1;
