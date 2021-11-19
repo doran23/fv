@@ -1,5 +1,5 @@
 h1 { 
-    color: darkgreen;
+    color: #45523e;
     font-family: 'Times New Roman', Times, serif;
 }
 body {
@@ -15,25 +15,23 @@ body {
     margin-left: 20px;
 }
 .top-right { 
+    margin-top: 5px;
     margin-right: 20px;
     text-align: center;
 }
 div.top { 
     background-color: #f5ece5;
     display: flex;
-    /*border: solid black;*/
 }
 img { 
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    border: 1px solid black;
 }
 div.title_image { 
-    background-color: #424243;
-    border: 5px solid #424243;
-    /*
-    border-style: solid #181613;
-    border-width: 5px, 20px;\
-    */
+    background-color: #45523e;
+    border: 5px solid #45523e;
 }
 
