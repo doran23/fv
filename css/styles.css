@@ -10,6 +10,10 @@ body {
     background-color: #f5ece5;
 }
 
+div.top { 
+    background-color: #f5ece5;
+    display: flex;
+}
 .top-left { 
     flex: 1;
     margin-left: 20px;
@@ -19,10 +23,7 @@ body {
     margin-right: 20px;
     text-align: center;
 }
-div.top { 
-    background-color: #f5ece5;
-    display: flex;
-}
+
 img { 
     display: block;
     margin-left: auto;
@@ -35,3 +36,42 @@ div.title_image {
     border: 5px solid #45523e;
 }
 
+div.content { 
+    display: flex;
+}
+div.left { 
+    flex: 1;
+    margin-left: 20px;
+}
+div.center {
+    flex: 1;
+}
+div.right { 
+    flex: 1;
+    margin-right: 20px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.copyright { 
+    margin-top: 20px;
+    text-align: center;
+}
